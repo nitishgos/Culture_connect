@@ -1,0 +1,133 @@
+* {
+ margin: 0;
+ font-family: sans-serif;
+ border: border-box;
+}
+.navbar {
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.odilogo{
+    height: 40px;
+    width: 90px;
+    align-items: center;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.odilogo:hover{
+    border:3px solid orange;
+}
+.logo {
+    background-image:url("OIP.jpeg");
+    background-size: cover;
+    height: 40px;
+    width: 90px;
+}
+
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+
+
+.loc{
+ color:antiquewhite;
+ font-size: .5rem;
+ margin-left: 15px;   
+}
+.ind{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+.add{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+   background-color: brown;
+    width: 560px;
+    height: 35px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+
+
+
+.search-sec{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: burlywood;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-in{
+    width:100%;
+    border:none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(233, 15, 51);
+    color:rgb(234, 162, 7);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+.search:hover{
+    border: 2px solid orange;
+    
+}
+
+.sigin{
+    font-size: 0.7rem;
+}
+.acc{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.Book{
+    font-size: 0.7rem;
+}
+.can{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+.deals{
+    font-size: 50px;
+    text-align: center;
+}
+
+.bar2{
+    background-color: rgb(145, 154, 154);
+   
+}
+
+.fli{
+    font-size: 2rem;
+    background-color: rgb(247, 111, 0);
+    width: 55px;
+    height: 60px;
+    border-radius: 3px;
+ align-items: center;
+}
+.flight{
+    font-size: 1rem;
+}
